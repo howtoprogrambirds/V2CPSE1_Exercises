@@ -1,6 +1,6 @@
-#include "hwlib.hpp"
+#include <iostream>
 #include "note_player_self.hpp"
 
 void note_player_self::play(const note & n){
-    hwlib::cout << "Frequency: " << n.frequency << " Duration: " << n.duration << "\n";
+    std::cout << "Frequency: " << n.frequency << " Duration: " << n.duration << "\n";
 }
